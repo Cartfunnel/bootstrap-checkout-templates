@@ -1,7 +1,7 @@
 # Bootstrap Checkout Templates
 Open source checkout page templates, based on the Bootstrap framework
 
-## Getting Started
+## Contributing
 
 * Download and extract the latest release from [here](https://github.com/geetfun/bootstrap-checkout-templates/releases)
 * cd to directory
