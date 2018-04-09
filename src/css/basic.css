@@ -6044,12 +6044,21 @@ html {
 body {
   min-height: 100%; }
 
+.sidebar {
+  border-bottom: 1px solid #e9ecef;
+  border-left: 0; }
+  .sidebar .toggle-order-summary:hover {
+    text-decoration: none; }
+
 @media (min-width: 768px) {
   .main {
     width: calc(100% - 400px); }
   .sidebar {
     width: 400px;
-    border-left: 1px solid #f2f2f2; } }
+    border-bottom: 0;
+    border-left: 1px solid #e9ecef; }
+    .sidebar #collapse-order-summary {
+      display: block; } }
 
 @media (min-width: 992px) {
   .main {

@@ -10,13 +10,27 @@ body {
   min-height: 100%;
 }
 
+.sidebar {
+  border-bottom: 1px solid $gray-200;
+  border-left: 0;
+  .toggle-order-summary {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
 @include media-breakpoint-up(md) {
   .main {
     width: calc(100% - 400px);
   }
   .sidebar {
     width: 400px;
-    border-left: 1px solid #f2f2f2;
+    border-bottom: 0;
+    border-left: 1px solid $gray-200;
+    #collapse-order-summary {
+      display: block;
+    }
   }
 }
 
