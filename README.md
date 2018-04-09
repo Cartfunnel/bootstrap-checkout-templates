@@ -13,6 +13,11 @@ Open source checkout page templates, based on the Bootstrap framework
 
 * NPM
 
+## Contributors
+
+* [JackyKYFung](https://github.com/JackyKYFung)
+* [geetfun](https://github.com/geetfun)
+
 ## Sponsor
 
 Project is sponsored by [Cartfunnel](https://cartfunnel.com)
