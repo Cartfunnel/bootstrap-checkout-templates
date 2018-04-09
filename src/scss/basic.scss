@@ -1,0 +1,30 @@
+@import "variables";
+@import "bootstrap";
+
+// Put any custom styles here
+
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+
+@include media-breakpoint-up(md) {
+  .main {
+    width: calc(100% - 400px);
+  }
+  .sidebar {
+    width: 400px;
+    border-left: 1px solid #f2f2f2;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .main {
+    width: calc(100% - 550px);
+  }
+  .sidebar {
+    width: 550px;
+  }
+}
