@@ -1,10 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css?family=Raleway");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -6142,7 +6142,6 @@ label {
   background-color: #282828;
   border: 1px solid orange;
   border-radius: 0;
-  line-height: 60px;
   vertical-align: middle; }
 
 .topLine {
@@ -6172,12 +6171,12 @@ label {
     background-color: orange;
     color: #282828; }
 
-.dropdown-item-custom {
-  height: 60px; }
-  .dropdown-item-custom:hover, .dropdown-item-custom:focus {
-    font-size: 110%;
-    font-weight: 800;
-    background-color: #323232; }
+.dropdown-item-custom a {
+  text-decoration: none; }
+  .dropdown-item-custom a:hover {
+    background-color: orange;
+    color: #fff;
+    text-decoration: none; }
 
 .bc-label {
   position: absolute;
