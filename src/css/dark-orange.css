@@ -6134,7 +6134,14 @@ label {
   color: #282828;
   z-index: 100;
   display: block;
-  border-radius: 0; }
+  border-radius: 0;
+  background-color: orange;
+  text-align: center;
+  line-height: 60px;
+  vertical-align: middle; }
+  .dropdown-custom:hover {
+    text-decoration: none;
+    color: white; }
 
 .dropdown-menu-custom {
   width: 100%;
@@ -6197,13 +6204,10 @@ label {
 .bg-gray {
   background-color: #282828; }
 
-.dropdown-logo {
-  position: absolute;
-  top: 5px;
-  left: 5px; }
-
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .breadcrumb-custom {
     display: flex; }
-  .dropdown {
-    display: none; } }
+  .dropdown-button {
+    display: none; }
+  #collapse-order-summary {
+    display: block; } }
