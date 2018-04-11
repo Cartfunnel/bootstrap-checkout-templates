@@ -23,95 +23,80 @@
     <!-- Begin Dropdown -->
     <div class="dropdown show">
       <a class="dropdown-toggle dropdown-custom dropdown-button" data-toggle="collapse" href="#collapse-order-summary" aria-expanded="false" aria-controls="collapse-order-summary">Dropdown Example</a>
-            
+
     </div>
     <!-- End dropdown -->
-      
+
     <div class="row m-auto">
-    <!-- Begin Side panel -->    
+    <!-- Begin Side panel -->
       <div class="order-md-2 bg-side-panel col-md-5 pb-5 collapse" id="collapse-order-summary">
         <div class="pt-4 px-2">
-          <h3 class="cart-information mt-3 text-center">Cart</h3>
-          <div class="shopping-cart">
-            <table class="table">
-              <tbody>
-                <tr>
-                  <td>
-                    <div class="col-2 p-0">
-                      <div class="product-thumbnail-wrapper">
-                        <div class="product-thumbnail">
-                          <div>
-                            <img class="img-thumbnail" src="https://placeimg.com/200/200/tech">
-                          </div>
-                          <span class="product-quantity text-center">1</span>
-                        </div>
-                      </div>
+          <!-- Begin fields for sidebar area -->
+          <h4 class="mb-4">Your cart</h4>
+          <ul class="list-group mb-3">
+            <li class="list-group-item d-flex justify-content-between lh-condensed border-0 bg-transparent p-0 mb-3">
+              <div class="media">
+                <div class="product-thumbnail-wrapper mr-4">
+                  <div class="product-thumbnail">
+                    <div>
+                      <img class="img-thumbnail" src="https://placeimg.com/50/50/any">
                     </div>
-                  </td>
-                  <td>
-                    <div class="product-title">
-                      Pokeball
-                    </div>
-                    <div class="variant-title">
-                      An item used to train and store Pokemon.
-                    </div>
-                    <div class="text-muted">
-                      One-time-use consumable item.
-                    </div>
-
-                  </td>
-                  <td>
-                    <div class="col-1">
-                      <div class="price">
-                        $4.99
-                      </div>
-                    </div>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <hr>
-          <h3 class="discount text-center">Discount</h3>
-          <div class="mb-3 p-3">
-            <div class="row">
-              <div class="col-8 mt-2">
-                <input class="form-control form-control-custom discount-placeholder" type="text" placeholder="coupon code">
+                    <span class="product-quantity text-center">1</span>
+                  </div>
+                </div>
+                <div class="media-body">
+                  <h6 class="my-0">Product name</h6>
+                  <small class="text-muted">Brief description</small>
+                </div>
               </div>
-              <div class="discountBtn col-4">
-                <button class="btn btn-custom py-1">Apply</button>
+              <span class="text-muted">$12</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between lh-condensed border-0 bg-transparent p-0 mb-3">
+              <div class="media">
+                <div class="product-thumbnail-wrapper mr-4">
+                  <div class="product-thumbnail">
+                    <div>
+                      <img class="img-thumbnail" src="https://placeimg.com/50/50/tech">
+                    </div>
+                    <span class="product-quantity text-center">1</span>
+                  </div>
+                </div>
+                <div class="media-body">
+                  <h6 class="my-0">Product name</h6>
+                  <small class="text-muted">Brief description</small>
+                </div>
+              </div>
+              <span class="text-muted">$12</span>
+            </li>
+          </ul>
+          <hr>
+          <form class="p-0 py-3">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Promo code">
+              <div class="input-group-append">
+                <button type="submit" class="btn btn-secondary">Redeem</button>
               </div>
             </div>
-          </div>
+          </form>
           <hr>
-          <div class="mb-3 p-1">
-            <div class="order-calculation">
-              <div class="row">
-                <div class="col-8 text-left order-calculation-title">Subtotal</div>
-                <div class="col-4 text-right order-calculation-total">$4.99</div>
+          <ul class="list-group mb-3">
+            <li class="list-group-item d-flex justify-content-between bg-transparent border-0 p-0 mb-3">
+              <div class="text-success">
+                <h6 class="my-0">Promo code</h6>
+                <small>EXAMPLECODE</small>
               </div>
-              <div class="row">
-                <div class="col-8 text-left order-calculation-title">Shipping</div>
-                <div class="col-4 text-right order-calculation-total">-</div>
-              </div>
-              <div class="row">
-                <div class="col-8 text-left order-calculation-title">Taxes</div>
-                <div class="col-4 text-right order-calculation-total">-</div>
-              </div>
-            </div>
-          </div>
-          <hr>
-          <div class="order-total">
-            <div class="row mx-0">
-              <div class="pl-1 col-8 text-left order-calculation-title">Total</div>
-              <div class="col-2 text-right currency">CAD</div>
-              <div class="col-2 text-right order-calculation-total">$4.99</div>
-            </div>
-          </div>
+              <span class="text-success">-$5</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between bg-transparent border-0 p-0">
+              <span>Total (USD)</span>
+              <strong>$20</strong>
+            </li>
+          </ul>
+          <!-- End fields for sidebar area -->
         </div>
       </div>
     <!-- End Side panel -->
-    <!-- Begin Main panel -->        
+    <!-- Begin Main panel -->
       <div class="order-md-1 bg-gray col-md-7 ">
         <div class="p-4">
           <!-- Begin order information area -->

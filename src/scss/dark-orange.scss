@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import "dark-orange/variables";
 @import "bootstrap";
+@import "common";
 
 .container {
   box-shadow: 0 10px 18px 0 rgba(0,0,0,0.4), 0 10px 25px 0 rgba(0,0,0,0.19);
@@ -9,10 +10,6 @@
 .bg-side-panel {
   background-color: $gray;
   color: white;
-}
-
-::placeholder {
-  color: rgba(48,48,48,1);
 }
 
 .form-control-custom {
@@ -48,28 +45,6 @@ label {
     border-color: $primary;
     outline: none;
   }
-}
-
-.product-thumbnail {
-  height:65px;
-  width:65px;
-
-  border-radius: 0.3em;
-}
-
-.product-thumbnail-wrapper {
-  position: relative;
-}
-
-.product-quantity {
-  position:absolute;
-  top:-10px;
-  left:50px;
-  color: white;
-  height: 25px;
-  width: 25px;
-  border-radius: 50%;
-  background-color: $primary;
 }
 
 .product-title {
@@ -131,7 +106,7 @@ label {
     text-align: center;
     line-height: 60px;
     vertical-align: middle;
-    
+
     &:hover {
         text-decoration: none;
         color: white;
@@ -225,7 +200,7 @@ label {
   .dropdown-button {
     display: none;
   }
-    
+
     #collapse-order-summary {
       display: block;
     }

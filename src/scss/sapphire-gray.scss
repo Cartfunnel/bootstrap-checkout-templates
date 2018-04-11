@@ -1,5 +1,6 @@
 @import "sapphire-gray/variables";
 @import "bootstrap";
+@import "common";
 
 // Put any custom styles here
 
@@ -7,117 +8,80 @@
 
 
 .bg-side-panel {
-    background-color: $gray-600;
-}
-
-
-::placeholder {
-    color: lightgray;
+  background-color: $gray-600;
 }
 
 .form-control-custom {
-    color: $secondary;
-    border: 0;
-    border-radius: 0;
-    border-bottom: 2px solid #e6e6e6;
-    background-color: transparent;
-    
-    &:focus, &:hover {
-        border-color: #e6e6e6;
-        box-shadow: none;
-    }
- 
+  color: $secondary;
+  border: 0;
+  border-radius: 0;
+  border-bottom: 2px solid #e6e6e6;
+  background-color: transparent;
+  &:focus, &:hover {
+    border-color: #e6e6e6;
+    box-shadow: none;
+  }
 }
 
 
 label {
-    color: #469cbf !important;
-    
+  color: #469cbf !important;
 }
 
 .btn-custom {
-    
-    border: 0;
-    color: lightgray;
-    background-color: transparent;
-    border: 2px solid #e6e6e6;
-    border-radius: 0.6em !important;
-    transition: 0.5s ease !important;
-    
-    &:hover, &:focus {
-    color: $primary;
-    border-color: $primary;
-    outline: none;
-    }
-}
-
-.product-thumbnail {
-        height:65px;
-        width:65px;
-        
-        border-radius: 0.3em;
-}
-
-.product-thumbnail-wrapper {
-    position: relative;
-}
-
-.product-quantity {
-    position:absolute;
-    top:-10px;
-    left:50px;
-    color: white;
-    height: 25px;
-    width: 25px;
-    border-radius: 50%;
-    background-color: $primary;
-}
-
-.table {
-    
+  border: 0;
+  color: lightgray;
+  background-color: transparent;
+  border: 2px solid #e6e6e6;
+  border-radius: 0.6em !important;
+  transition: 0.5s ease !important;
+  &:hover, &:focus {
+  color: $primary;
+  border-color: $primary;
+  outline: none;
+  }
 }
 
 .product-title {
-    color: $primary;
-    
+  color: $primary;
 }
 
 .variant-title {
-    color: lightgray;
-    font-size: 90%;
+  color: lightgray;
+  font-size: 90%;
 }
 
 .text-muted {
-    font-size: 80%;
+  font-size: 80%;
 }
 
 .price {
-    color: $white;
+  color: $white;
 }
 
 .discount-placeholder::placeholder {
-    color: rgba(150,150,150,1);
+  color: rgba(150,150,150,1);
 }
 
 .discountBtn {
-    display: inline-block;
+  display: inline-block;
 }
 
 .text-style {
-    font-family: Raleway;
+  font-family: Raleway;
 }
 
 .order-calculation-title {
-    color: $primary;
+  color: $primary;
 }
 
 .order-calculation-total {
-    color: $white;
+  color: $white;
 }
 
 .currency {
-    color: $secondary;
-    font-size: 110%;   
+  color: $secondary;
+  font-size: 110%;
 }
 
 .dropdown-custom {
@@ -132,7 +96,6 @@ label {
     text-align: center;
     line-height: 60px;
     vertical-align: middle;
-    
     &:hover {
         text-decoration: none;
         color: white;
@@ -144,12 +107,10 @@ label {
   .breadcrumb-custom {
     display: flex;
   }
-
   .dropdown-button {
     display: none;
   }
-    
-    #collapse-order-summary {
-      display: block;
-    }
+  #collapse-order-summary {
+    display: block;
+  }
 }
