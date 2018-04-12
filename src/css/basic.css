@@ -6038,6 +6038,16 @@ a.text-dark:hover, a.text-dark:focus {
   .table-bordered td {
     border: 1px solid #ddd !important; } }
 
+label {
+  color: #6c757d !important; }
+
+.product-title {
+  color: #007bff; }
+
+.variant-title {
+  color: lightgray;
+  font-size: 90%; }
+
 .bg-transparent {
   background-color: transparent !important; }
 
@@ -6058,6 +6068,15 @@ a.text-dark:hover, a.text-dark:focus {
   width: 25px;
   border-radius: 50%;
   background-color: #007bff; }
+
+.text-muted {
+  font-size: 80%; }
+
+.price {
+  color: #fff; }
+
+.discountBtn {
+  display: inline-block; }
 
 html {
   height: 100%; }
